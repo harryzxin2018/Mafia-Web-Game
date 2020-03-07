@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="day2-2.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+</head>
+<body id="body">
+<!-- Day1 Night -->
+    <!-- The introductive video -->
+	<audio src="audio/fight.mp3" autoplay loop> 
+	</audio>
+    <!-- overlay -->
+    <div id="overlay" onclick="off()"></div>
+    <!-- the title -->
+    <h1 id="text1"> I want to protect you! </h1>
+
+    <!-- divs -->
+    <div class="people" id="Harry">
+        <img class="butt" src="images/iconbutt.png" onclick="appear1()">
+    </div>
+
+    <div class="people" id="Carl"   onclick="appear2()">
+        <img class="butt" src="images/iconbutt.png" onclick="appear2()">
+    </div>
+    <!-- <div class="people" id="Ethan"  onclick="appear3()">
+        <img class="butt" src="images/iconbutt.png" onclick="appear3()">
+    </div> -->
+    <div class="people" id="Amy"    onclick="appear4()">
+        <img class="butt" src="images/iconbutt.png" onclick="appear4()">
+    </div>
+    <!-- <div class="people" id="Fiona"  onclick="appear5()">
+        <img class="butt" src="images/iconbutt.png" onclick="appear5()"> -->
+    </div>
+    <div class="people" id="Echo"   onclick="appear6()">
+        <img class="butt" src="images/iconbutt.png" onclick="appear6()">
+    </div>
+    <!-- <div class="people" id="Sophie" onclick="appear7()">
+        <img class="butt" src="images/iconbutt.png" onclick="appear7()">
+    </div> -->
+    <div class="people" id="Tommy"  onclick="appear8()">
+        <img class="butt" src="images/iconbutt.png" onclick="appear8()">
+    </div>
+    
+    <!-- headshots -->
+    <img class="heads" id="H-Harry"  src="images/heads/harry4.png">
+    <img class="heads" id="H-Carl"   src="images/heads/carl4.png">
+    <!-- <img class="heads" id="H-Ethan"  src="images/heads/ethan2.png"> -->
+    <img class="heads" id="H-Amy"    src="images/heads/amy2.png">
+    <!-- <img class="heads" id="H-Fiona"  src="images/heads/fiona2.png"> -->
+    <img class="heads" id="H-Echo"   src="images/heads/echo1.png">
+    <img class="heads" id="H-Sophie" src="images/heads/sophie3.png">
+    <img class="heads" id="H-Tommy"   src="images/heads/tommy2.png">
+
+    <!-- chatbox -->
+    <div class="chat" id="C-Harry"> 
+    <img src="images/textboxes/day2/talk2-9.png" width="850" >
+    <img src="images/textboxes/day2/talk2-10.png" width="850" >  
+    </div>
+
+    <div class="chat" id="C-Carl">
+    <img src="images/textboxes/day2/talk2-11.png" width="850" > 
+    <img src="images/textboxes/day2/talk2-12.png" width="850" > 
+    </div>
+
+    <!-- <div class="chat" id="C-Ethan"> 
+    <img src="images/textboxes/day1/talk1-14.png" width="850" > 
+    </div> -->
+
+    <div class="chat" id="C-Amy"> 
+    <img src="images/textboxes/day2/talk2-8.png" width="850" >     
+    </div>
+
+    <!-- <div class="chat" id="C-Fiona"> 
+    <img src="images/textboxes/day1/talk1-10.png" width="850" >    
+    </div> -->
+
+    <div class="chat" id="C-Echo"> 
+    <img src="images/textboxes/day2/talk2-7.png" width="850" >     
+    </div>
+
+    <!-- <div class="chat" id="C-Sophie"> 
+    <img src="images/textboxes/day1/talk1-12.png" width="850" >    
+    </div> -->
+
+    <div class="chat" id="C-Tommy"> 
+    <img src="images/textboxes/day2/talk2-6.png" width="850" > 
+    </div>
+
+    <!-- The audio Part -->
+    <audio id="talk"> </audio>
+    
+        <img id="myImg" src="images/book1.png"  width="100" height="100">
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <!-- Vote -->
+    <img id="voteImg" src="images/vote1.png" width="160">
+    
+    <div id="voteModal" class="modal">
+        <img id="img02" onclick="result1()"  src="images/choices/carlvote.png" width="250">
+        <img  id="img03" onclick="result2()" src="images/choices/harryvote.png" width="250">
+    <div id="result" >
+      <img id="img04" onclick="conti()" src="images/choices/conti.png" width="300">
+    </div>
+        <img id="img05" src="images/choices/carlhei.png" width="250">
+        <img id="img06" src="images/choices/harryhei.png" width="250">
+        <div id="votecaption"></div>
+    </div>
+
+
+
+
+    
+   
+
+    
+    
+
+
+
+
+
+
+<script src="day2-2.js"> </script>
+</body>

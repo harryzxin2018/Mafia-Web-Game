@@ -1,0 +1,210 @@
+html,body {
+	margin:0;
+    padding:0;
+    background-image:url("images/background/choices.jpg");
+    background-size:100%;
+    background-repeat:no-repeat; 
+    background-position: top center;
+    
+}
+h1 {
+    font-family: 'eater', cursive;
+    font-size: 89px;
+    color: white;
+    position: fixed;
+    text-align: right;
+    left: 125px;
+    top: 42px;
+    margin: 0;
+    padding: 0;
+}
+#home{
+    display:block;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+#text1{
+    display:none;
+    position: fixed;
+    font-size: 25px;
+    top: 540px;
+    left: 300px;
+    color: white;
+    text-align: right;
+    font-family: "Rock Salt";
+    color:#FF923B;
+    
+}
+#text2{ 
+    display:none;
+    position:fixed;
+    font-size:25px;
+    top:530px;
+    left:950px;
+    color:white;
+    text-align:right;
+    font-family: "Rock Salt";
+    color:#FF923B;
+}
+#text3{
+    display:none;
+    position:fixed;
+    font-size:25px;
+    top:530px;
+    left:570px;
+    color:white;
+    text-align:right;
+    font-family: "Rock Salt";
+    color:#FF923B;
+
+}
+
+#text4{
+    display:none;
+    position: fixed;
+    font-size: 25px;
+    top: 690px;
+    right: 20px;
+    color: white;
+    text-align: right;
+    font-family: "Rock Salt";
+    color:#FF923B;
+}
+    
+
+
+
+
+
+#arrow1{
+    opacity: 0.7;
+    width: 125px;
+    height:150px;
+    position: fixed;
+    top: 412px;
+    left: 275px;
+    cursor: pointer; 
+    
+}
+#arrow1:hover {
+    opacity:1;
+}
+
+#arrow2{
+    opacity: 0.5;
+    width: 150px;
+    position: fixed;
+    top: 400px;
+    left: 920px;
+
+    cursor: pointer; 
+}
+#arrow2:hover {
+    opacity:1;
+
+}
+#arrow3 {
+    opacity: 0.7;
+    width: 150px;
+    position: fixed;
+    top: 457px;
+    left: 660px;
+    cursor: pointer; 
+    /* transform: scaleX(-1); */
+  
+}
+#arrow3:hover {
+    opacity:1;
+}
+
+#arrow4{
+    opacity: 0.7;
+    width: 150px;
+    position: fixed;
+    top: 600px;
+    left: 980px;
+    transform: rotateX(30deg);
+    cursor: pointer; 
+}
+#arrow4:hover {
+    opacity:1;
+}
+#late {
+    display:block;
+    position: fixed;
+    font-family: 'Gloria Hallelujah', cursive;
+    top: 500px;
+    text-align: center;
+    font-size: 40px;
+    width: 852px;
+    left: 300px;
+    z-index: 3;
+    color:#FFB03B;
+    
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    position:fixed;
+    font-size:50px;
+    top:600px;
+    left:300px;
+    color:#468966;    
+}
+a:hover {
+    color:white;
+}
+
+#skip {
+    display:none;
+    position:fixed;
+    font-size:30px;
+    top:650px;
+    left:900px;
+    color:white;
+    text-align:right;
+    font-family: 'Rock Salt', cursive;
+    z-index:4;
+    cursor:pointer;
+
+}
+#skip:hover {
+    transform {scale(1.2,1.2);}
+}
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.9); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+#video1 {
+    display:none;
+    position:fixed;
+    width:960px;
+    height:540px;
+    z-index:3;
+    left: 12%;
+    top: 15%;
+
+}

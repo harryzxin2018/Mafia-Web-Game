@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="day1-3.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Righteous|Rock+Salt" rel="stylesheet">
+<script src='http://use.edgefonts.net/eater.js'></script>
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+
+</head>
+<body id="body">
+<div id="overlay"></div>
+<audio id="bgm" src="audio/night.mp3" autoplay loop> </audio>
+<div id="home">
+	<h1 id="title"> Let's investigate! </h1>
+
+	<div class="arrows"> 
+		<img id="arrow1" src="images/leftTopArrow.png" width="80" onmouseover="ap1()" onmouseout="disp1()" onclick="playVideo1()";>  
+		<img id="arrow2" src="images/leftBottomArrow.png" width="80" onmouseover="ap2()" onmouseout="disp2()" onclick="playVideo2()";>
+
+		<img id="arrow3" src="images/leftBottomArrow2.png" width="80" onmouseover="ap3()" onmouseout="disp3()" onclick="playVideo3()";>
+
+		<img id="arrow4" src="images/leftBottomArrow.png" width="80" onmouseover="ap4()" onmouseout="disp4()" onclick="playVideo4()";> 
+	</div>
+
+	<div id="text1"> 
+		<p> Tommy and Sophies' Room </p>
+	</div>
+
+	<div id="text2"> 
+		<p> Harry's Room </p>
+	</div> 
+
+	<div id="text3"> 
+		<p> Echo and Amy's Room </p>
+	</div> 
+
+	<div id="text4"> 
+		<p> Ethan and Carl's Room </p>
+	</div> 
+
+</div>
+
+	<div id="late"> 
+     
+ 		<a id="link" href="day2-1.html"> <p> It's time to sleep!  <p> </a>
+	</div>
+    <div id="late1"> <p> </p> </div>
+
+	<!-- skip -->
+
+	<div id="skipContainer">
+	<p id="skip" onclick="skip()"> Skip This Part </p>	
+	</div>
+
+<!-- video -->
+	<video id="video1"> </video>
+<script src="day1-3.js"> </script>
+</body>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="cover.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Righteous|Rock+Salt" rel="stylesheet">
+<script src='http://use.edgefonts.net/eater.js'></script>
+<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+</head>
+<body>
+<audio id="bgm" src="audio/opening.mp3" autoplay loop> </audio>
+<div id="home">
+    <h1> Skeleton in the closet </h1>
+    <span id="start"> <p id="startButton"  onclick="playVideo()"> Start </p> </span>
+    <p> Created by 
+      <br>Summner and Harry</p>
+</div>
+<!-- skip function -->
+<div id="skipContainer">
+	<p id="skip" onclick="skip()"> Skip This Part </p>	
+</div>
+	<div id="cinema" height="100%">
+		<video id="introVideo"> 
+			<source src="video/introVideo.mp4" type="video/mp4"> 
+		</video>
+    </div>
+		<div id="continue"><center>
+	  	 	<p id="hint"> 
+	  	 	You arrive, <br>
+	  	 	Only to find you best friend Sumner found dead. <br>
+	  	 	No one entered that building last night. <br>
+	  	 	Killers are among us!<br>
+	  	 	A <span id="guard" onmouseover="guard()" onmouseout="noGuard()"> Guard </span>, a <span id="detect" onmouseover="detect()" onmouseout="noDetect()"> Detective </span> <br>
+	  	 	Three <span id="suspect" onmouseover="suspect()" onmouseout="noSuspect()"> Suspects </span> , who are they ? <br> 
+	  	 	So many mysteries unsolved <br>
+	  	 	And murder will never stop... <br>
+
+	  	 	</p>
+	  	 	<a id="nextPage" href="day1-1.html"> Continue your journey </a>
+		</center> </div>
+
+
+		<div class="char" id="character1">
+			<h6 class="des"> A guard has the ability to protect a person from being killed as well as kill a person. Both ability can be used ONLY ONCE </h6>
+		</div>
+
+		<div class="char" id="character2" >
+			<h6 class="des"> A detective has the power to investigate ONE person every night and know whether a person is the killer or not.</h6>
+		</div>
+
+		<div class="char" id="character3" >
+			<h6 class="des"> A suspect means someone Sumner thought was about to kill him, but no one knows who they are now. Several Killers can only kill one person at one night.</h6>
+		</div>
+<div id="overlay"></div>
+	
+
+	
+
+
+<script src="cover.js"> </script>
+
+	
+</body>
+<html>

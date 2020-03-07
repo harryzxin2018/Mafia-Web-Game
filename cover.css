@@ -1,0 +1,138 @@
+body {
+	margin:0;
+	background-image: url("images/background/cover.jpg");
+    background-size:cover;
+
+
+}
+h1 {font-size: 85px;
+    position: fixed;
+    color: white;
+    text-align: center;
+    font-family: 'eater', cursive;
+    top: 80px;
+    left: 37px;
+
+}
+p {  
+    position:fixed;
+	font-size:30px;
+	top:600px;
+	right:20px;
+	color:white;
+	text-align:right;
+	font-family: 'Rock Salt', cursive;
+}
+a{  position: fixed;
+    text-decoration: none;
+    font-size: 40px;
+    position: fixed;
+    color: white;
+    text-align: center;
+    font-family: 'eater', cursive;
+    top: 650px;
+    left: 350px;
+    z-index:3;
+    color:yellow;
+
+ }
+a:hover {
+    color: lightblue;
+}
+
+#cinema {
+	display:none;
+    position:fixed;
+}
+#continue {
+	display:none;
+    z-index: 3;
+}
+#start {
+	cursor:pointer;
+}
+#startButton {
+	position: fixed;
+    top: 400px;
+    left: 514px;
+    font-size: 65px;
+    width: 100px;
+    font-family: 'eater', cursive;
+
+
+}
+#startButton:hover{
+	color:red;
+
+}
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+#hint {
+	position: fixed;
+    font-family: 'Gloria Hallelujah', cursive;
+    top: 70px;
+    text-align: center;
+    font-size: 33px;
+    width: 852px;
+    left: 200px;
+    opacity: 1;
+    z-index: 3;
+}
+#introVideo{
+    position:fixed;
+    top:35%; left:50%; 
+    z-index: 1;
+    min-width: 100%;
+    min-height:70%;
+    width:auto;
+    height:auto;
+    transform:translate(-50%,-50%);
+
+}
+#skip {
+    position:fixed;
+    top:650px;
+    text-align:right;
+    right:40%;
+    display:none;
+    z-index:4;
+    cursor:pointer;
+
+}
+#guard,#suspect,#detect {
+    color:#39E7DF;
+}
+#guard:hover {
+    color:#1543B9;
+
+}
+#suspect:hover{
+    color:#1543B9;
+}
+#detect:hover {
+     color:#1543B9;
+
+}
+.char {
+    display: none;
+    position: fixed;
+    top: 588px;
+    left: 992px;
+    z-index: 4;
+    width: 267px;
+    font-size: 32px;
+    font-family:Adobe Devanagari ;
+    color: #ffffff;
+}
+

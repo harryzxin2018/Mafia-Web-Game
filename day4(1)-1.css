@@ -1,0 +1,227 @@
+html,body {
+	margin:0;
+    padding:0;
+    background-image:url("images/background/day4(1)-1.jpg");
+    background-size:100%;
+    background-repeat:no-repeat; 
+    background-position: top center;
+}
+h1 {
+    font-family: 'Creepster', cursive;
+    font-size: 89px;
+    color: white;
+    position: fixed;
+    text-align: right;
+    right: 258px;
+    top: 42px;
+    margin: 0;
+    padding: 0;
+}
+
+#overlay {
+    margin:0;
+    padding:0;
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+.people{
+    position: fixed;
+    margin:0;
+    width:40px;
+    height:40px;
+}
+.butt {
+    width:40px;
+    height:40px;
+
+}
+.butt:hover {  
+    animation:rotate;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    }
+
+
+@keyframes rotate {
+    
+  
+    to {transform:rotate(360deg);}
+    
+ }   
+#Harry {
+    top: 430px;
+    left: 750px;
+    
+}
+#Carl{
+    left: 400px;
+    top: 300px;
+
+}
+#Ethan{
+    left: 893px;
+    top: 350px;
+}
+#Amy{
+    left: 840px;
+    top: 600px;
+
+}
+#Fiona{
+    left: 596px;
+    top: 304px;
+}
+#Echo{
+    left: 700px;
+    top: 344px;
+
+}
+#Sophie{
+    left: 289px;
+    top: 317px;
+}
+#Tommy{
+    left: 34px;
+    bottom: 346px;
+}
+
+.heads {
+    position: fixed;
+    display: none;
+    width: 250px;
+    height: 250px;
+    top: 292px;
+    left: 210px;
+    z-index: 4;
+
+
+}
+
+.chat {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    display: none;
+    z-index: 4;
+    top: 511px;
+    left: 190px;
+
+}
+#myImg {
+    position: fixed;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    top: 605px;
+    left: 1100px;
+    opacity:0.8;
+}
+
+
+#myImg:hover {opacity: 1;}
+
+/* The Modal (background) */
+.modal {
+    margin:0;
+    padding:0;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top:100px;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+#next{
+    text-decoration: none;
+    font-family: 'Gloria Hallelujah', cursive;
+    position:fixed;
+    position:fixed;
+    font-size:30px;
+    top:700px;
+    right:20px;
+    color:white;
+    text-align:right;
+    
+}
+
+
+#next:hover {
+    color:lightblue;
+}
